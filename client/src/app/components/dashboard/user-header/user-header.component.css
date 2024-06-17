@@ -1,0 +1,30 @@
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    right: -21px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.searchIcon i {
+    width: 40px;
+    height: 38px;
+    background: #00838d;
+    line-height: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.userName {
+    background: #00838d;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 1.5px 2.5px 3px #00838d;
+    border: 2px solid #00838d;
+}

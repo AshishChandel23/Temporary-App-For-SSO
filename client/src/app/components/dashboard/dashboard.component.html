@@ -1,0 +1,16 @@
+<app-user-header></app-user-header>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="shadow sideBar" style="width: 15%;">
+                <ul class="sidebar text-center mt-2">
+                    <li>Home</li>
+                    <li><button type="button" class="userName mt-4" (click)="logoutUser()">Logout</button></li>
+                </ul>
+            </div>
+            <div class="mt-2" style="width: 85%;">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</section>

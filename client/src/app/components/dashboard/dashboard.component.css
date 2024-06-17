@@ -1,0 +1,23 @@
+.sidebar li {
+    list-style: none;
+}
+
+.sideBar {
+    min-height: 100vh;
+}
+
+.sidebar {
+    padding-left: 0px;
+    margin: 10px;
+}
+.userName {
+    background: #00838d;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 1.5px 2.5px 3px #00838d;
+    border: 2px solid #00838d;
+}
